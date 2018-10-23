@@ -17,12 +17,12 @@
 		A39BCA8D217EBC4500F0D03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39BCA8B217EBC4500F0D03C /* LaunchScreen.storyboard */; };
 		A39BCA98217EBC4600F0D03C /* SuperFacilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BCA97217EBC4600F0D03C /* SuperFacilTests.swift */; };
 		A39BCAA3217EBC4600F0D03C /* SuperFacilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BCAA2217EBC4600F0D03C /* SuperFacilUITests.swift */; };
-<<<<<<< HEAD
+
 		D61903F6C3379A4A339299B7 /* Pods_SuperFacil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06979EBFBE4E87F5A5C2F85 /* Pods_SuperFacil.framework */; };
-=======
+
 		A39BCAB2217EC8FA00F0D03C /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BCAB0217EC8FA00F0D03C /* ProductListViewController.swift */; };
 		A39BCAB3217EC8FA00F0D03C /* ProductListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39BCAB1217EC8FA00F0D03C /* ProductListViewController.xib */; };
->>>>>>> c0e29153f5873a95c4c2e75ce31caaced365df19
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,16 +61,16 @@
 		A39BCA9E217EBC4600F0D03C /* SuperFacilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFacilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39BCAA2217EBC4600F0D03C /* SuperFacilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFacilUITests.swift; sourceTree = "<group>"; };
 		A39BCAA4217EBC4600F0D03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		A91FBA4B49FE89D0351A3B8A /* Pods_SuperFacilTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperFacilTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06979EBFBE4E87F5A5C2F85 /* Pods_SuperFacil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperFacil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA6A66608197D118F57D8B1 /* Pods_SuperFacilUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperFacilUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F4298FE125BB490038CEF1 /* Pods-SuperFacil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperFacil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperFacil/Pods-SuperFacil.debug.xcconfig"; sourceTree = "<group>"; };
 		F88DE5E6066131B51D5F6695 /* Pods-SuperFacil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperFacil.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperFacil/Pods-SuperFacil.release.xcconfig"; sourceTree = "<group>"; };
-=======
+
 		A39BCAB0217EC8FA00F0D03C /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		A39BCAB1217EC8FA00F0D03C /* ProductListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListViewController.xib; sourceTree = "<group>"; };
->>>>>>> c0e29153f5873a95c4c2e75ce31caaced365df19
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,12 +141,11 @@
 			children = (
 				A39BCA82217EBC4200F0D03C /* AppDelegate.swift */,
 				A39BCA84217EBC4200F0D03C /* ViewController.swift */,
-<<<<<<< HEAD
+
 				5B0714A1217ED177009CBEAF /* GoogleService-Info.plist */,
-=======
+
 				A39BCAB0217EC8FA00F0D03C /* ProductListViewController.swift */,
 				A39BCAB1217EC8FA00F0D03C /* ProductListViewController.xib */,
->>>>>>> c0e29153f5873a95c4c2e75ce31caaced365df19
 				A39BCA86217EBC4200F0D03C /* Main.storyboard */,
 				A39BCA89217EBC4500F0D03C /* Assets.xcassets */,
 				A39BCA8B217EBC4500F0D03C /* LaunchScreen.storyboard */,
