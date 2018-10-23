@@ -24,7 +24,6 @@ class ViewController: UIViewController {
     @objc func buttonAction(sender: UIButton!) {
         print("Button tapped")
         let view = ProductListViewController()
-//        view.category = "test"
         self.navigationController?.pushViewController(view, animated: true)
         
     }

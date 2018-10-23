@@ -19,11 +19,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         let viewController = ViewController() //ViewController = Name of your controller
-        let navigationController = UINavigationController()
-        navigationController.viewControllers = [viewController]
+        let favoritesViewController = FavoritesViewController()
+        favoritesViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        viewController.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 1)
+        
+        let tabBarController = UITabBarController()
+        let controllers = [viewController, favoritesViewController]
+        tabBarController.viewControllers = controllers.map { UINavigationController(rootViewController: $0)}
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = navigationController
+        self.window?.rootViewController = tabBarController//navigationController
         self.window?.makeKeyAndVisible()
 
         FirebaseApp.configure()
