@@ -1,0 +1,6 @@
+framework module Pods_SuperFacilUITests {
+  umbrella header "Pods-SuperFacilUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
