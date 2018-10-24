@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         for controller in controllers {
             let navigationVC = UINavigationController(rootViewController: controller)
             navigationVC.navigationBar.barTintColor = UIColor.specialOrange
-            navigationVC.navigationItem.title = "SuperFacil"
+            navigationVC.navigationBar.topItem?.title = "SuperFacil"
             navigationControllers.append(navigationVC)
         }
         tabBarController.viewControllers = navigationControllers
