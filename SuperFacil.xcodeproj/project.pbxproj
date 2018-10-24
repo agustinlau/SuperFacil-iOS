@@ -21,6 +21,7 @@
 		A39BCAB3217EC8FA00F0D03C /* ProductListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39BCAB1217EC8FA00F0D03C /* ProductListViewController.xib */; };
 		A39BCABA217EF22B00F0D03C /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BCAB8217EF22B00F0D03C /* FavoritesViewController.swift */; };
 		A39BCABB217EF22B00F0D03C /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39BCAB9217EF22B00F0D03C /* FavoritesViewController.xib */; };
+		A39BCABD21802FCB00F0D03C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BCABC21802FCB00F0D03C /* UIColor.swift */; };
 		D61903F6C3379A4A339299B7 /* Pods_SuperFacil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06979EBFBE4E87F5A5C2F85 /* Pods_SuperFacil.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		A39BCAB1217EC8FA00F0D03C /* ProductListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListViewController.xib; sourceTree = "<group>"; };
 		A39BCAB8217EF22B00F0D03C /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		A39BCAB9217EF22B00F0D03C /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		A39BCABC21802FCB00F0D03C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		A91FBA4B49FE89D0351A3B8A /* Pods_SuperFacilTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperFacilTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06979EBFBE4E87F5A5C2F85 /* Pods_SuperFacil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperFacil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA6A66608197D118F57D8B1 /* Pods_SuperFacilUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperFacilUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				A39BCA82217EBC4200F0D03C /* AppDelegate.swift */,
+				A39BCABC21802FCB00F0D03C /* UIColor.swift */,
 				A39BCAB8217EF22B00F0D03C /* FavoritesViewController.swift */,
 				A39BCAB9217EF22B00F0D03C /* FavoritesViewController.xib */,
 				A39BCA84217EBC4200F0D03C /* ViewController.swift */,
@@ -415,6 +418,7 @@
 				A39BCAB2217EC8FA00F0D03C /* ProductListViewController.swift in Sources */,
 				A39BCABA217EF22B00F0D03C /* FavoritesViewController.swift in Sources */,
 				A39BCA83217EBC4200F0D03C /* AppDelegate.swift in Sources */,
+				A39BCABD21802FCB00F0D03C /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

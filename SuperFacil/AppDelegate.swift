@@ -25,7 +25,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let tabBarController = UITabBarController()
         let controllers = [viewController, favoritesViewController]
-        tabBarController.viewControllers = controllers.map { UINavigationController(rootViewController: $0)}
+        var navigationControllers: [UINavigationController] = []
+        for controller in controllers {
+            let navigationVC = UINavigationController(rootViewController: controller)
+            navigationVC.navigationBar.barTintColor = UIColor.specialOrange
+            navigationVC.navigationItem.title = "SuperFacil"
+            navigationControllers.append(navigationVC)
+        }
+        tabBarController.viewControllers = navigationControllers
+//        tabBarController.viewControllers = controllers.map { UINavigationController(rootViewController: $0)}
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = tabBarController//navigationController
