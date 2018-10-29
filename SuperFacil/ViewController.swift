@@ -73,11 +73,9 @@ class ViewController: UIViewController {
     }
     
     @objc func goToProductListPage(sender: UIButton!) {
-        print("Button tapped")
         let view = ProductListViewController()
         view.category = sender.currentTitle ?? "food"
         self.navigationController?.pushViewController(view, animated: true)
-        
     }
 
 

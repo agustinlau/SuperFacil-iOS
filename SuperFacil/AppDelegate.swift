@@ -30,6 +30,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let navigationVC = UINavigationController(rootViewController: controller)
             navigationVC.navigationBar.barTintColor = UIColor.specialOrange
             navigationVC.navigationBar.topItem?.title = "SuperFacil"
+            navigationVC.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white, NSAttributedString.Key.font:UIFont(name:"HelveticaNeue", size: 26)!]
+
             navigationControllers.append(navigationVC)
         }
         tabBarController.viewControllers = navigationControllers
